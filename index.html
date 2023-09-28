@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
+  <meta name="keywords" content="mmWave, Vital Monitoring, FMCW">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RF-Vital: Radio-Based Contactless Respiration Monitoring for a Moving Individual</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org/",
+    "@type":"Dataset",
+    "name":"MVDoppler",
+    "description":"RF-Vital model is the first approach to successfully achieve nRRM for individuals engaged in GMs or even random walking.",
+    "url":"https://rfvital.github.io",
+    <!-- "sameAs":"https://gis.ncdc.noaa.gov/geoportal/catalog/search/resource/details.page?id=gov.noaa.ncdc:C00510",
+    "identifier": ["https://doi.org/10.1000/182",
+                    "https://identifiers.org/ark:/12345/fk1234"], -->
+    "license" : "https://github.com/soheilhr/MVDoppler/blob/main/LICENSE/",
+    "isAccessibleForFree" : true,
+    "creator":{
+        "@type":"Organization",
+        "url": "https://arbabianlab.stanford.edu/",
+        "name":"Arbabian Lab., Dept. Electrical Engineering, Stanford University",
+    },
+    "funder":{
+        "@type": "Organization",
+        "sameAs": "https://www.postech.ac.kr/",
+        "name": "POSTECH"
+    },
+    "includedInDataCatalog":{
+        "@type":"DataCatalog",
+        "name":"data.gov"
+    },
+    "distribution":[
+        {
+          "@type":"DataDownload",
+          "encodingFormat":"ZIP",
+          "contentUrl":"https://postechackr-my.sharepoint.com/personal/jhchoi93_postech_ac_kr/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fjhchoi93%5Fpostech%5Fac%5Fkr%2FDocuments%2FRRM%5Fdata&ga=1"
+        }
+    ],
+  }
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">RF-Vital: Radio-Based Contactless Respiration Monitoring for a Moving Individual</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              Jae-Ho Choi,</span>
+            <span class="author-block">
+              Ki-Bong Kang,</span>
+            <span class="author-block">
+              Kyung-Tae Kim,</span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><b><i>Stanford University, Samsung Electronics, POSTECH</i></b></span>
+            <!-- <span class="author-block"><sup>2</sup>Google Research</span> -->
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <!-- <span class="link-block">
+                <a href="https://arxiv.org/pdf/2011.12948"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span> -->
+              <!-- <span class="link-block">
+                <a href="https://arxiv.org/abs/2011.12948"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span> -->
+              <!-- Video Link. -->
+              <!-- <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span> -->
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/gogoho88/RRM"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <a href="https://postechackr-my.sharepoint.com/personal/jhchoi93_postech_ac_kr/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fjhchoi93%5Fpostech%5Fac%5Fkr%2FDocuments%2FRRM%5Fdata&ga=1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./static/images/classes.svg"
+                 class="interpolation-image"
+                 alt="Interpolation end reference image."/>
+      <h2 class="subtitle has-text-centered">
+        The <b>first multi-view Doppler dataset</b> for micro-motion-based gait classification.
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            The non-contact respiration rate measurement (nRRM) method enables a system to monitor the breathing patterns of an individual without physical contact, which is essential for consistent health monitoring in everyday life. Current nRRM approaches heavily rely on capturing subtle variations in RGB profiles reflected from a camera to extract respiration signals remotely. Their requirement for continuous pixel-level tracking, however, poses significant practical constraints, limiting their applicability to individuals in quasi-stationary sitting positions. To overcome this limitation, we propose a radio-frequency (RF)-Vital model, which leverages RF signals to widen the applicability of nRRM approaches to non-stationary individuals who exhibit global motions (GMs) and even walk around. The core idea of the RF-Vital model lies in the unique characteristics of RF signals: the RF signals received from a moving individual capture both their respiratory motions (RMs) and GMs through linear superposition, while simultaneously providing the reflections of GM alone. To fully utilize such unique properties, we introduce a new RF modality that allows stable involvement of micro-level respiration signatures, even in the presence of GMs. Furthermore, we optimize the RF-Vital model using a novel multi-task adversarial learning framework combined with a new loss function, which facilitates the direct mapping of the desired RMs as well as the self-supervised removal of GMs, thereby effectively filtering out RMs from mixtures of GMs and RMs. The proposed RF-vital model was evaluated through newly published datasets, demonstrating a state-of-the-art performance in static conditions as well as achieving the significant milestone of achieving nRRM under moving conditions.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{Hor:2023_NIPS,
+  author    = {Choi, Jae-Ho and Kang, Ki-Bong and Kim, Kyung-Tae},
+  title     = {Remote Respiration Monitoring of Moving Person Using Radio Signals},
+  journal   = {ECCV},
+  year      = {2022},
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This means you are free to borrow the <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
